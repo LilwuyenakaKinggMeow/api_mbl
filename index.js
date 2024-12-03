@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 // Kết nối MongoDB
-mongoose.connect('mongodb+srv://nguyenso1:messingu@cluster0.nzd6o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://nguyenso1:cr7vip@cluster0.nzd6o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
 }).then(() => {
     console.log('Connected to MongoDB Atlas');
 }).catch((err) => {
